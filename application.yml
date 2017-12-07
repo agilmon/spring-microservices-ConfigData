@@ -7,25 +7,30 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 spring:
-  profiles: subject
+  profiles: 
+    active: subject
 words: I,You,He,She,It
 
 ---
 spring:
-  profiles: verb
+  profiles: 
+    active: verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: article
+  profiles: 
+    active: article
 words: a,the
 
 ---
 spring:
-  profiles: adjective
+  profiles: 
+    active: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog 
+  profiles: 
+    active: noun
+words: boat,book,vote,seat,backpack,partition,groundhog

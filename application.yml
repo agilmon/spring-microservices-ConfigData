@@ -4,32 +4,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
----
-spring:
-  profiles: 
-    active: MICROSERVICE-SUBJECT
-words: I,You,He,She,It
-
----
-spring:
-  profiles: 
-    active: MICROSERVICE-VERB
-words: ran,knew,had,saw,bought
-
----
-spring:
-  profiles: 
-    active: MICROSERVICE-ARTICLE
-words: a,the
-
----
-spring:
-  profiles: 
-    active: MICROSERVICE-ADJECTIVE
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles: 
-    active: MICROSERVICE-NOUN
-words: boat,book,vote,seat,backpack,partition,groundhog

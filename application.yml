@@ -7,29 +7,29 @@ eureka:
 ---
 spring:
   profiles: 
-    active: subject
+    active: MICROSERVICE-SUBJECT
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: 
-    active: verb
+    active: MICROSERVICE-VERB
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: 
-    active: article
+    active: MICROSERVICE-ARTICLE
 words: a,the
 
 ---
 spring:
   profiles: 
-    active: adjective
+    active: MICROSERVICE-ADJECTIVE
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: 
-    active: noun
+    active: MICROSERVICE-NOUN
 words: boat,book,vote,seat,backpack,partition,groundhog
